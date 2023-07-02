@@ -88,9 +88,9 @@ int main(void) {
 		// it prompts the user which mode it wants.
 		choice = instruction(&sPtr);
 
+    		scanf("%c", husk);
+		
 		// and based on the user input it will go to the mode based on the switch.
-    scanf("%c", husk);
-    
 		switch (choice) {
 		case 1:
 			changes += append(&sPtr);
